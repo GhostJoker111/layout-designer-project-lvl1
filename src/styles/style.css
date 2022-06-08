@@ -1,4 +1,43 @@
 /** CSS STYLE **/
+@font-face {
+  font-family: OpenSans;
+  src: url(/Hexlet_Project1/Fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url(/Hexlet_Project1/Fonts/Neucha-Regular.ttf);
+}
+
+:root {
+  --white: #fff;
+  --translucent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --main: #fe8a02;
+  --main-dark: #42413c;
+  --dark: #2a2626;
+  --translucent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+  --font-size: 16px;
+  --line-height: 1.6em;
+  --text-color: #2a2626;
+  --lineheight-headline: 1.2em;
+  --h1: 72px;
+  --h2: 60px;
+  --h3: 34px;
+}
+
+/** НЕ ЗАБДЬ ПРО ВЫРАВНИВАНИЕ КОНТЕНТА ПО ЦЕНТРУ**/
+
+.p-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.w-1110 {
+  max-width: 1110px;
+}
 
 .hello {
   display: block;
