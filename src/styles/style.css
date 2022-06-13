@@ -41,9 +41,12 @@ body {
 .w-1110 {
   max-width: 1110px;
 }
+/** Секция-1**/
 
 .header-section {
   position: relative;
+  width: 100vw;
+  height: 100vh;
 }
 
 .header-section::before {
@@ -52,6 +55,7 @@ body {
   background-image: url(/Hexlet_Project1/images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: var(--brown);
   opacity: 10%;
   width: 100%;
   height: 100%;
@@ -118,4 +122,46 @@ p {
   font-size: var(--font-size);
   color: var(--text-color);
   line-height: 26px;
+}
+
+/** Секция 2**/
+
+.video-section {
+  display: flex;
+  justify-content: center;
+}
+
+.video-headline {
+  width: 1110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-video-headline {
+  text-align: center;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  margin-top: 100px;
+}
+
+.black {
+  color: var(--dark);
+}
+
+.text-video {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 30px;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
