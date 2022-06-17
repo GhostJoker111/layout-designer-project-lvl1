@@ -31,16 +31,11 @@
 body {
   margin: 0;
 }
-/** НЕ ЗАБУДЬ ПРО ВЫРАВНИВАНИЕ КОНТЕНТА ПО ЦЕНТРУ И ОСТУПЫ ИЗ ШАГА 2**/
 
-/**.p-100 {
-                          padding-top: 100px;
-                          padding-bottom: 100px;
-                         }
-                      **/
 .w-1110 {
   max-width: 1110px;
 }
+
 /** Секция-1**/
 
 .header-section {
@@ -80,6 +75,10 @@ h1 {
   color: var(--main);
 }
 
+.white {
+  color: var(--white);
+}
+
 .main-img {
   position: absolute;
   top: 55px;
@@ -103,6 +102,9 @@ h1 {
 }
 
 .button-1 {
+  position: relative;
+  display: block;
+  width: max-content;
   padding: 12px 24px;
   margin-top: 40px;
   margin-bottom: 100px;
@@ -111,8 +113,31 @@ h1 {
   font-weight: 700;
   line-height: var(--line-height);
   text-transform: uppercase;
+  text-decoration: none;
   color: var(--white);
   background-color: var(--main);
+  border: none;
+}
+
+.button-1 a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.button-1:hover {
+  display: block;
+  width: max-content;
+  padding: 12px 24px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  font-family: OpenSans;
+  font-size: var(--font-size);
+  font-weight: 700;
+  line-height: var(--line-height);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--white);
+  background-color: #ea7600;
   border: none;
 }
 
@@ -127,6 +152,7 @@ p {
 /** Секция 2**/
 
 .video-section {
+  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -163,5 +189,307 @@ p {
 }
 
 .video {
+  position: relative;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  z-index: 2;
+}
+
+#navigation::before {
+  position: absolute;
+  content: "";
+  top: -100px;
+  width: 100vw;
+  height: 100px;
+  background-color: var(--main-dark);
+  z-index: 1;
+}
+
+/**Секция-3**/
+
+#navigation {
+  position: relative;
+  padding-top: 100px;
+  background-color: var(--main-dark);
+}
+
+.menu-1,
+.menu-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-1 {
+  margin-bottom: 20px;
+}
+
+.menu-2 {
+  padding-bottom: 100px;
+}
+
+.numbers {
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+}
+
+.card-headlines {
+  margin: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 120%;
+  color: var(--main);
+}
+
+.card-text {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--text-color);
+}
+
+.card-0 {
+  padding: 0 10px 0 0;
+  background-color: var(--main-dark);
+}
+
+.introduction {
+  margin: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 120%;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+  padding: 24px;
+  background-color: var(--light);
+}
+
+.card-1,
+.card-4 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.w-302 {
+  width: 302px;
+}
+
+.card-2 > .card-text,
+.card-4 > .card-text {
+  margin-bottom: 0;
+}
+
+.card-1:hover {
+  padding: 24px;
+  background-color: var(--main);
+}
+
+.card-1:hover .numbers {
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--white);
+}
+
+.card-1:hover .w-302 {
+  width: 302px;
+}
+
+.card-1:hover .card-headlines {
+  margin: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 120%;
+  color: var(--white);
+}
+
+.card-1:hover .card-text {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
+}
+
+.card-2:hover {
+  padding: 24px;
+  background-color: var(--main);
+}
+
+.card-2:hover .numbers {
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--white);
+}
+
+.card-2:hover .w-302 {
+  width: 302px;
+}
+
+.card-2:hover .card-headlines {
+  margin: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 120%;
+  color: var(--white);
+}
+
+.card-2:hover .card-text {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
+}
+
+.card-3:hover {
+  padding: 24px;
+  background-color: var(--main);
+}
+
+.card-3:hover .numbers {
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--white);
+}
+
+.card-3:hover .w-302 {
+  width: 302px;
+}
+
+.card-3:hover .card-headlines {
+  margin: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 120%;
+  color: var(--white);
+}
+
+.card-3:hover .card-text {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
+}
+
+.card-4:hover {
+  padding: 24px;
+  background-color: var(--main);
+}
+
+.card-4:hover .numbers {
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--white);
+}
+
+.card-4:hover .w-302 {
+  width: 302px;
+}
+
+.card-4:hover .card-headlines {
+  margin: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 120%;
+  color: var(--white);
+}
+
+.card-4:hover .card-text {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
+}
+
+.card-5:hover {
+  padding: 24px;
+  background-color: var(--main);
+}
+
+.card-5:hover .numbers {
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--white);
+}
+
+.card-5:hover .w-302 {
+  width: 302px;
+}
+
+.card-5:hover .card-headlines {
+  margin: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 120%;
+  color: var(--white);
+}
+
+.card-5:hover .card-text {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
+}
+
+.menu-1 > a,
+.menu-2 > a {
+  display: contents;
+  text-decoration: none;
 }
