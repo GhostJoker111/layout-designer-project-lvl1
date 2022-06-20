@@ -32,11 +32,27 @@ body {
   margin: 0;
 }
 
-.w-1110 {
-  max-width: 1110px;
+h2 {
+  font-family: Neucha;
+  font-size: var(--h2);
+  line-height: var(--lineheight-headline);
+  color: var(--main);
+  margin: 0;
 }
 
-/** Секция-1**/
+p {
+  font-family: OpenSans;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  color: var(--white);
+}
+
+.w-1110 {
+  max-width: 1110px;
+  padding-bottom: 100px;
+}
+
+/** СЕКЦИЯ-1**/
 
 .header-section {
   position: relative;
@@ -69,6 +85,7 @@ h1 {
   font-weight: 400;
   font-size: var(--h1);
   line-height: var(--lineheight-headline);
+  color: var(--dark);
 }
 
 .orange {
@@ -94,11 +111,11 @@ h1 {
 }
 
 .column-1 {
-  width: 540px;
+  flex: 1;
 }
 
 .column-2 {
-  width: 540px;
+  flex: 1;
 }
 
 .button-1 {
@@ -141,7 +158,7 @@ h1 {
   border: none;
 }
 
-p {
+.p-text {
   font-family: OpenSans, sans-serif;
   font-weight: 400;
   font-size: var(--font-size);
@@ -149,7 +166,7 @@ p {
   line-height: 26px;
 }
 
-/** Секция 2**/
+/** СЕКЦИЯ-2**/
 
 .video-section {
   position: relative;
@@ -204,7 +221,7 @@ p {
   z-index: 1;
 }
 
-/**Секция-3**/
+/**СЕКЦИЯ-3**/
 
 #navigation {
   position: relative;
@@ -234,6 +251,7 @@ p {
   font-weight: 400;
   font-size: 64px;
   line-height: 1;
+  color: var(--dark);
 }
 
 .card-headlines {
@@ -492,4 +510,241 @@ p {
 .menu-2 > a {
   display: contents;
   text-decoration: none;
+}
+
+/**СЕКЦИЯ-4(все стили об 1,3,5 секциях)**/
+
+#ikea-effect {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#ikea-effect::before {
+  position: absolute;
+  content: "";
+  background-image: url(/Hexlet_Project1/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--brown);
+  opacity: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.section-headline {
+  display: flex;
+  column-gap: 30px;
+  padding-top: 100px;
+}
+
+.section-img {
+  vertical-align: middle;
+  background-color: var(--white);
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.topic-b {
+  margin: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--translucent-dark);
+}
+
+.section-1-3-5-explanation {
+  margin-top: 30px;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 41px;
+  color: var(--dark);
+}
+
+.how-it-works {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.how-it-works-text {
+  padding: 5px 0 5px 10px;
+  margin: 0;
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--brown);
+}
+
+.columns-2 {
+  display: flex;
+  justify-content: center;
+  width: 1110px;
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.text-columns-2-block {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.text-columns-2 {
+  margin-top: 0;
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--dark);
+}
+
+/**СЕКЦИЯ-5(все стили об 2,4 секциях)**/
+
+#premature-optimization {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brown);
+}
+
+#premature-optimization::before {
+  position: absolute;
+  content: "";
+  background-image: url(/Hexlet_Project1/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.topic-w {
+  margin: 0;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--translucent-white);
+}
+
+.h-white {
+  margin: 0;
+  font-family: Neucha;
+  font-weight: 400;
+  font-size: var(--h1);
+  line-height: var(--lineheight-headline);
+  color: var(--white);
+}
+
+.section-2-4-explanation {
+  margin-top: 30px;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 41px;
+  color: var(--white);
+}
+
+.how-it-works-text-w {
+  padding: 5px 0 5px 10px;
+  margin: 0;
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: var(--brown);
+  background-color: var(--white);
+}
+
+.text-columns-2-w {
+  margin-top: 0;
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--white);
+}
+
+/**СЕКЦИЯ-6**/
+
+#distortion-of-novelty {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#distortion-of-novelty::before {
+  position: absolute;
+  content: "";
+  background-image: url(/Hexlet_Project1/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--brown);
+  opacity: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+/**СЕКЦИЯ-7 **/
+
+#hyperbolic-depreciation {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--brown);
+}
+
+#hyperbolic-depreciation::before {
+  position: absolute;
+  content: "";
+  background-image: url(/Hexlet_Project1/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+/**CЕКЦИЯ-8**/
+
+#errors-in-planning {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#errors-in-planning::before {
+  position: absolute;
+  content: "";
+  background-image: url(/Hexlet_Project1/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--brown);
+  opacity: 10%;
+  width: 100%;
+  height: 100%;
 }
