@@ -48,7 +48,7 @@ p {
 }
 
 .w-1110 {
-  max-width: 1110px;
+  width: 1110px;
   padding-bottom: 100px;
 }
 
@@ -747,4 +747,123 @@ h1 {
   opacity: 10%;
   width: 100%;
   height: 100%;
+}
+
+/**СЕКЦИЯ-9**/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-100 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+.feedback {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--main-dark);
+}
+
+.more {
+  margin: 0;
+  padding: 55px;
+  font-family: Neucha;
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--h3);
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.e-mail {
+  margin-top: 38px;
+  margin-bottom: 9px;
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-right: 55px;
+}
+
+.email-and-button {
+  display: flex;
+}
+
+#name {
+  padding: 0 0 0 15px;
+  border-width: 0;
+  height: 50px;
+  width: 400px;
+}
+
+::-webkit-input-placeholder {
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.1px;
+  line-height: 160%;
+  color: #757575;
+  opacity: 0.2;
+}
+
+.agreement {
+  margin-top: 0;
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+.agreement > a:-webkit-any-link {
+  color: var(--white);
+}
+
+.send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  width: 70px;
+  height: 50px;
+  background-color: var(--main);
+}
+
+.send::before {
+  content: url(/Hexlet_Project1/images/send.svg);
+}
+
+.information {
+  padding-top: 60px;
+}
+
+.contacts {
+  margin-top: 16px;
+  font-family: OpenSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  color: #000000;
+}
+
+.contacts > a:-webkit-any-link {
+  color: var(--blue);
 }
