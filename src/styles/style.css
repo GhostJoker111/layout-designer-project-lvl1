@@ -1,12 +1,12 @@
 /** CSS STYLE **/
 @font-face {
   font-family: OpenSans;
-  src: url(/Hexlet_Project1/layout-designer-project-lvl1/src/Fonts/OpenSans-Regular.ttf);
+  src: url(./Fonts/OpenSans-Regular.ttf);
 }
 
 @font-face {
   font-family: Neucha;
-  src: url(/Hexlet_Project1/layout-designer-project-lvl1/src/Fonts/Neucha-Regular.ttf);
+  src: url(./Fonts/Neucha-Regular.ttf);
 }
 
 :root {
@@ -63,7 +63,7 @@ p {
 .header-section::before {
   position: absolute;
   content: "";
-  background-image: url(/Hexlet_Project1/layout-designer-project-lvl1/src/images/background.png);
+  background-image: url(./images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--brown);
@@ -525,7 +525,7 @@ h1 {
 #ikea-effect::before {
   position: absolute;
   content: "";
-  background-image: url(/Hexlet_Project1/layout-designer-project-lvl1/src/images/background.png);
+  background-image: url(./images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--brown);
@@ -623,7 +623,7 @@ h1 {
 #premature-optimization::before {
   position: absolute;
   content: "";
-  background-image: url(/Hexlet_Project1/layout-designer-project-lvl1/src/images/background.png);
+  background-image: url(./images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 10%;
@@ -696,7 +696,7 @@ h1 {
 #distortion-of-novelty::before {
   position: absolute;
   content: "";
-  background-image: url(/Hexlet_Project1/layout-designer-project-lvl1/src/images/background.png);
+  background-image: url(./images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--brown);
@@ -719,7 +719,7 @@ h1 {
 #hyperbolic-depreciation::before {
   position: absolute;
   content: "";
-  background-image: url(/Hexlet_Project1/layout-designer-project-lvl1/src/images/background.png);
+  background-image: url(./images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 10%;
@@ -740,7 +740,7 @@ h1 {
 #errors-in-planning::before {
   position: absolute;
   content: "";
-  background-image: url(/Hexlet_Project1/layout-designer-project-lvl1/src/images/background.png);
+  background-image: url(./images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--brown);
