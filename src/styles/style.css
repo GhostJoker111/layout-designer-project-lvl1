@@ -846,7 +846,7 @@ h1 {
 }
 
 .send::before {
-  content: url(/Hexlet_Project1/layout-designer-project-lvl1/src/images/send.svg);
+  content: url(./images/send.svg);
 }
 
 .information {
