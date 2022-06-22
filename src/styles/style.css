@@ -696,7 +696,7 @@ h1 {
 #distortion-of-novelty::before {
   position: absolute;
   content: "";
-  background-image: url(../background.png);
+  background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--brown);
@@ -719,7 +719,7 @@ h1 {
 #hyperbolic-depreciation::before {
   position: absolute;
   content: "";
-  background-image: url(../background.png);
+  background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 10%;
@@ -740,7 +740,7 @@ h1 {
 #errors-in-planning::before {
   position: absolute;
   content: "";
-  background-image: url(../background.png);
+  background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--brown);
