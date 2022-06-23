@@ -154,6 +154,8 @@ h1 {
 /** СЕКЦИЯ-2**/
 
 .video-section {
+  position: relative;
+  z-index: 2;
   display: flex;
   justify-content: center;
 }
@@ -198,21 +200,13 @@ h1 {
   z-index: 2;
 }
 
-#navigation::before {
-  position: absolute;
-  content: "";
-  top: -100px;
-  width: 100vw;
-  height: 100px;
-  background-color: var(--main-dark);
-  z-index: 1;
-}
-
 /**СЕКЦИЯ-3**/
 
 #navigation {
   position: relative;
-  padding-top: 100px;
+  z-index: 1;
+  padding-top: 200px;
+  margin-top: -100px;
   background-color: var(--main-dark);
 }
 
