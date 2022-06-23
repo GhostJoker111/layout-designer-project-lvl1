@@ -123,7 +123,6 @@ h1 {
   width: max-content;
   padding: 12px 24px;
   margin-top: 40px;
-  margin-bottom: 100px;
   font-family: OpenSans;
   font-size: var(--font-size);
   font-weight: 700;
@@ -141,19 +140,7 @@ h1 {
 }
 
 .button-1:hover {
-  display: block;
-  width: max-content;
-  padding: 12px 24px;
-  margin-top: 40px;
-  font-family: OpenSans;
-  font-size: var(--font-size);
-  font-weight: 700;
-  line-height: var(--line-height);
-  text-transform: uppercase;
-  text-decoration: none;
-  color: var(--white);
   background-color: #ea7600;
-  border: none;
 }
 
 .p-text {
