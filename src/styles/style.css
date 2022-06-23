@@ -56,8 +56,10 @@ p {
 
 .header-section {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-section::before {
@@ -74,9 +76,7 @@ p {
 
 .headline {
   position: relative;
-  width: 1110px;
   padding-top: 100px;
-  padding-left: 165px;
 }
 
 h1 {
@@ -105,9 +105,8 @@ h1 {
 
 .columns {
   display: flex;
-  justify-content: flex-start;
   column-gap: 30px;
-  padding: 185px 165px 0;
+  padding-top: 165px;
 }
 
 .column-1 {
@@ -146,7 +145,6 @@ h1 {
   width: max-content;
   padding: 12px 24px;
   margin-top: 40px;
-  margin-bottom: 100px;
   font-family: OpenSans;
   font-size: var(--font-size);
   font-weight: 700;
