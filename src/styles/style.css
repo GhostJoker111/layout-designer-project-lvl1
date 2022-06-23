@@ -195,9 +195,7 @@ h1 {
 }
 
 .video {
-  position: relative;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-  z-index: 2;
 }
 
 /**СЕКЦИЯ-3**/
@@ -293,197 +291,82 @@ h1 {
 }
 
 .card-1:hover {
-  padding: 24px;
   background-color: var(--main);
 }
 
 .card-1:hover .numbers {
-  margin-bottom: 40px;
-  margin-top: 0;
-  font-family: Neucha;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 1;
   color: var(--white);
 }
 
-.card-1:hover .w-302 {
-  width: 302px;
-}
-
 .card-1:hover .card-headlines {
-  margin: 0;
-  font-family: Neucha;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 120%;
   color: var(--white);
 }
 
 .card-1:hover .card-text {
-  font-family: OpenSans;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
   color: var(--white);
 }
 
 .card-2:hover {
-  padding: 24px;
   background-color: var(--main);
 }
 
 .card-2:hover .numbers {
-  margin-bottom: 40px;
-  margin-top: 0;
-  font-family: Neucha;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 1;
   color: var(--white);
 }
 
-.card-2:hover .w-302 {
-  width: 302px;
-}
-
 .card-2:hover .card-headlines {
-  margin: 0;
-  font-family: Neucha;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 120%;
   color: var(--white);
 }
 
 .card-2:hover .card-text {
-  font-family: OpenSans;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
   color: var(--white);
 }
 
 .card-3:hover {
-  padding: 24px;
   background-color: var(--main);
 }
 
 .card-3:hover .numbers {
-  margin-bottom: 40px;
-  margin-top: 0;
-  font-family: Neucha;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 1;
   color: var(--white);
 }
 
-.card-3:hover .w-302 {
-  width: 302px;
-}
-
 .card-3:hover .card-headlines {
-  margin: 0;
-  font-family: Neucha;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 120%;
   color: var(--white);
 }
 
 .card-3:hover .card-text {
-  font-family: OpenSans;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
   color: var(--white);
 }
 
 .card-4:hover {
-  padding: 24px;
   background-color: var(--main);
 }
 
 .card-4:hover .numbers {
-  margin-bottom: 40px;
-  margin-top: 0;
-  font-family: Neucha;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 1;
   color: var(--white);
 }
 
-.card-4:hover .w-302 {
-  width: 302px;
-}
-
 .card-4:hover .card-headlines {
-  margin: 0;
-  font-family: Neucha;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 120%;
   color: var(--white);
 }
 
 .card-4:hover .card-text {
-  font-family: OpenSans;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
   color: var(--white);
 }
 
 .card-5:hover {
-  padding: 24px;
   background-color: var(--main);
 }
 
 .card-5:hover .numbers {
-  margin-bottom: 40px;
-  margin-top: 0;
-  font-family: Neucha;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 1;
   color: var(--white);
 }
 
-.card-5:hover .w-302 {
-  width: 302px;
-}
-
 .card-5:hover .card-headlines {
-  margin: 0;
-  font-family: Neucha;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 120%;
   color: var(--white);
 }
 
 .card-5:hover .card-text {
-  font-family: OpenSans;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
   color: var(--white);
 }
 
