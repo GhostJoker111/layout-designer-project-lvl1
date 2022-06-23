@@ -154,7 +154,6 @@ h1 {
 /** СЕКЦИЯ-2**/
 
 .video-section {
-  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -600,9 +599,7 @@ h1 {
 /**СЕКЦИЯ-5(все стили об 2,4 секциях)**/
 
 #premature-optimization {
-  position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--brown);
@@ -674,9 +671,7 @@ h1 {
 /**СЕКЦИЯ-6**/
 
 #distortion-of-novelty {
-  position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -696,9 +691,7 @@ h1 {
 /**СЕКЦИЯ-7 **/
 
 #hyperbolic-depreciation {
-  position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--brown);
@@ -718,9 +711,7 @@ h1 {
 /**CЕКЦИЯ-8**/
 
 #errors-in-planning {
-  position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
