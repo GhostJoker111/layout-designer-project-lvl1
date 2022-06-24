@@ -34,6 +34,7 @@ body {
 
 h2 {
   margin: 0;
+
   color: var(--main);
   font-size: var(--h2);
 
@@ -68,8 +69,10 @@ p {
 
 .header-section::before {
   position: absolute;
+
   width: 100%;
   height: 100%;
+
   background-color: var(--brown);
 
   background-image: url("../images/background.png");
@@ -140,8 +143,8 @@ h1 {
   padding: 12px 24px;
 
   font-weight: 700;
-  font-size: var(--font-size);
   color: var(--white);
+  font-size: var(--font-size);
 
   font-family: OpenSans, serif;
   line-height: var(--line-height);
@@ -164,9 +167,10 @@ h1 {
 .p-text {
   color: var(--text-color);
   font-weight: 400;
+  font-size: var(--font-size);
 
   font-family: OpenSans, serif;
-  font-size: var(--font-size);
+
   line-height: 26px;
 }
 
@@ -191,12 +195,12 @@ h1 {
 .text-video-headline {
   margin-top: 100px;
   margin-bottom: 30px;
+
   font-weight: 400;
-
-  font-family: Neucha, serif;
-
   font-size: 60px;
   font-style: normal;
+
+  font-family: Neucha, serif;
 
   line-height: 72px;
   text-align: center;
@@ -207,21 +211,23 @@ h1 {
 }
 
 .text-video {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   color: var(--dark);
 
-  font-family: OpenSans, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
 
-  margin-top: 0;
-  margin-bottom: 30px;
+  font-family: OpenSans, serif;
 
   line-height: 160%;
 }
 
 .video {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px);
+  color: rgba(0, 0, 0, 15%);
 }
 
 /** СЕКЦИЯ-3 **/
@@ -253,35 +259,39 @@ h1 {
 .numbers {
   margin-top: 0;
   margin-bottom: 40px;
-  font-weight: 400;
-
-  font-family: Neucha, serif;
   color: var(--dark);
+
+  font-weight: 400;
   font-size: 64px;
   font-style: normal;
+
+  font-family: Neucha, serif;
 
   line-height: 1;
 }
 
 .card-headlines {
   margin: 0;
-  font-weight: 400;
 
-  font-family: Neucha, serif;
   color: var(--main);
+
+  font-weight: 400;
   font-size: 34px;
   font-style: normal;
+
+  font-family: Neucha, serif;
 
   line-height: 120%;
 }
 
 .card-text {
-  font-weight: 400;
-
-  font-family: OpenSans, serif;
   color: var(--text-color);
+
+  font-weight: 400;
   font-size: 16px;
   font-style: normal;
+
+  font-family: OpenSans, serif;
 
   line-height: 26px;
 }
@@ -294,11 +304,12 @@ h1 {
 
 .introduction {
   margin: 0;
-  font-weight: 400;
 
-  font-family: Neucha, serif;
+  font-weight: 400;
   font-size: 52px;
   font-style: normal;
+
+  font-family: Neucha, serif;
 
   line-height: 120%;
 }
@@ -431,6 +442,7 @@ h1 {
 
   width: 100%;
   height: 100%;
+
   background-color: var(--brown);
 
   background-image: url("../images/background.png");
@@ -439,6 +451,7 @@ h1 {
   background-size: cover;
 
   opacity: 0.1;
+
   content: "";
 }
 
@@ -454,7 +467,8 @@ h1 {
   vertical-align: middle;
 
   background-color: var(--white);
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0px 16px 32px);
+  color: rgba(0, 0, 0, 15%);
 }
 
 .topic-b {
