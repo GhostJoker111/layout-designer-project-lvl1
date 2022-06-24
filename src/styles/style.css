@@ -800,7 +800,7 @@ h1 {
   border-width: 0;
 }
 
-input::-webkit-input-placeholder {
+::placeholder {
   color: #757575;
 
   font-weight: 400;
