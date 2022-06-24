@@ -228,7 +228,7 @@ h1 {
 }
 
 .video {
-  color: rgb(0 0 0 / 0.15);
+  color: rgb(0 0 0 / 15%);
 
   filter: drop-shadow(0 16px 32px);
 }
@@ -468,13 +468,11 @@ h1 {
 }
 
 .section-img {
-  color: rgb(0 0 0 / 0.15);
+  color: rgb(0 0 0 / 15%);
 
   vertical-align: middle;
 
   background-color: var(--white);
-
-  filter: drop-shadow(0px 16px 32px);
 }
 
 .topic-b {
