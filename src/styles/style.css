@@ -33,18 +33,18 @@ body {
 }
 
 h2 {
-  font-size: var(--h2);
-  font-family: "Neucha", serif;
   color: var(--main);
-  line-height: var(--lineheight-headline);
-
+  font-size: var(--h2);
+  font-family: Neucha, serif;
   margin: 0;
+  line-height: var(--lineheight-headline);
 }
 
 p {
-  font-size: var(--font-size);
-  font-family: "OpenSans", serif;
   color: var(--white);
+  font-size: var(--font-size);
+
+  font-family: OpenSans, serif;
   line-height: var(--line-height);
 }
 
@@ -68,8 +68,8 @@ p {
   position: absolute;
 
   background-image: url("../images/background.png");
-  background-repeat: no-repeat;
   background-color: var(--brown);
+  background-repeat: no-repeat;
   background-size: cover;
 
   width: 100%;
@@ -88,11 +88,11 @@ p {
 
 h1 {
   margin: 0;
-
-  font-weight: 400;
-  font-family: "Neucha", serif;
-  font-size: var(--h1);
   color: var(--dark);
+  font-weight: 400;
+  font-size: var(--h1);
+
+  font-family: Neucha, serif;
   line-height: var(--lineheight-headline);
 }
 
@@ -135,12 +135,14 @@ h1 {
   width: max-content;
   margin-top: 40px;
   padding: 12px 24px;
+
   font-weight: 700;
   font-size: var(--font-size);
+  color: var(--white);
+
   font-family: "OpenSans", sans-serif;
   line-height: var(--line-height);
   text-transform: uppercase;
-  color: var(--white);
   text-decoration: none;
 
   background-color: var(--main);
@@ -158,7 +160,7 @@ h1 {
 
 .p-text {
   font-weight: 400;
-  font-family: OpenSans, sans-serif;
+  font-family: OpenSans, serif;
   color: var(--text-color);
   font-size: var(--font-size);
   line-height: 26px;
@@ -176,21 +178,21 @@ h1 {
 
 .video-headline {
   display: flex;
-  width: 1110px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 1110px;
 }
 
 .text-video-headline {
-  font-family: "Neucha", serif;
-  text-align: center;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 60px;
-
   margin-top: 100px;
   margin-bottom: 30px;
+  font-family: Neucha, serif;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
+  text-align: center;
+
   line-height: 72px;
 }
 
@@ -199,16 +201,15 @@ h1 {
 }
 
 .text-video {
-  font-family: "OpenSans", serif;
+  color: var(--dark);
+
+  font-family: OpenSans, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-
   margin-top: 0;
   margin-bottom: 30px;
   line-height: 160%;
-
-  color: var(--dark);
 }
 
 .video {
@@ -414,16 +415,15 @@ h1 {
 #ikea-effect::before {
   position: absolute;
 
-  background-image: url("../images/background.png");
-  content: "";
-
-  background-repeat: no-repeat;
-  background-color: var(--brown);
-  background-size: cover;
-
   width: 100%;
   height: 100%;
 
+  background-image: url("../images/background.png");
+  background-color: var(--brown);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  content: "";
   opacity: 0.1;
 }
 
@@ -431,6 +431,7 @@ h1 {
   display: flex;
 
   padding-top: 100px;
+
   column-gap: 30px;
 }
 
@@ -443,23 +444,25 @@ h1 {
 
 .topic-b {
   margin: 0;
-
-  font-family: "Neucha", serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
+
+  font-family: Neucha, serif;
   color: var(--translucent-dark);
+
+  font-size: 24px;
+  font-style: normal;
   line-height: 29px;
 }
 
 .section-1-3-5-explanation {
   margin-top: 30px;
-
-  font-family: "Neucha", serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 34px;
+
+  font-family: Neucha, serif;
+
   color: var(--dark);
+  font-size: 34px;
+  font-style: normal;
   line-height: 41px;
 }
 
@@ -473,11 +476,13 @@ h1 {
 .how-it-works-text {
   margin: 0;
   padding: 5px 0 5px 10px;
-  font-family: "OpenSans", serif;
   font-weight: 700;
-  font-style: normal;
-  font-size: 14px;
+
+  font-family: OpenSans, serif;
+
   color: var(--white);
+  font-size: 14px;
+  font-style: normal;
   line-height: 17px;
   text-transform: uppercase;
 
@@ -499,12 +504,13 @@ h1 {
 
 .text-columns-2 {
   margin-top: 0;
-
-  font-family: "OpenSans", serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
+
+  font-family: OpenSans, serif;
   color: var(--dark);
+  font-size: 16px;
+  font-style: normal;
+
   line-height: 26px;
 }
 
@@ -520,61 +526,62 @@ h1 {
 
 #premature-optimization::before {
   position: absolute;
+  width: 100%;
+  height: 100%;
 
   background-image: url("../images/background.png");
-
-  content: "";
-
   background-repeat: no-repeat;
   background-size: cover;
 
-  width: 100%;
-  height: 100%;
+  content: "";
 
   opacity: 0.1;
 }
 
 .topic-w {
   margin: 0;
-
-  font-family: "Neucha", serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
+
+  font-family: Neucha, serif;
   color: var(--translucent-white);
+  font-size: 24px;
+  font-style: normal;
+
   line-height: 29px;
 }
 
 .h-white {
   margin: 0;
-
-  font-family: "Neucha", serif;
   font-weight: 400;
-  font-size: var(--h1);
+
+  font-family: Neucha, serif;
   color: var(--white);
+  font-size: var(--h1);
   line-height: var(--lineheight-headline);
 }
 
 .section-2-4-explanation {
   margin-top: 30px;
-
-  font-family: "Neucha", serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 34px;
+
+  font-family: Neucha, serif;
   color: var(--white);
+  font-size: 34px;
+  font-style: normal;
+
   line-height: 41px;
 }
 
 .how-it-works-text-w {
   margin: 0;
   padding: 5px 0 5px 10px;
-
-  font-family: "OpenSans", serif;
   font-weight: 700;
-  font-style: normal;
-  font-size: 14px;
+
+  font-family: OpenSans, serif;
   color: var(--brown);
+  font-size: 14px;
+  font-style: normal;
+
   line-height: 17px;
   text-transform: uppercase;
 
@@ -583,12 +590,13 @@ h1 {
 
 .text-columns-2-w {
   margin-top: 0;
-
-  font-family: "OpenSans", serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
+
+  font-family: OpenSans, serif;
   color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+
   line-height: 26px;
 }
 
@@ -602,16 +610,15 @@ h1 {
 
 #distortion-of-novelty::before {
   position: absolute;
-
-  content: "";
-
-  background-image: url("../images/background.png");
-  background-repeat: no-repeat;
-  background-color: var(--brown);
-  background-size: cover;
-
   width: 100%;
   height: 100%;
+
+  background-image: url("../images/background.png");
+  background-color: var(--brown);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
 
   opacity: 0.1;
 }
@@ -628,15 +635,15 @@ h1 {
 
 #hyperbolic-depreciation::before {
   position: absolute;
+  width: 100%;
+  height: 100%;
 
   background-image: url("../images/background.png");
 
-  content: "";
   background-repeat: no-repeat;
   background-size: cover;
 
-  width: 100%;
-  height: 100%;
+  content: "";
 
   opacity: 0.1;
 }
@@ -651,16 +658,16 @@ h1 {
 
 #errors-in-planning::before {
   position: absolute;
+  width: 100%;
+  height: 100%;
 
   background-image: url("../images/background.png");
 
-  content: "";
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--brown);
 
-  width: 100%;
-  height: 100%;
+  content: "";
 
   opacity: 0.1;
 }
@@ -689,12 +696,13 @@ h1 {
 .more {
   margin: 0;
   padding: 55px;
-
-  font-family: "Neucha", serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: var(--h3);
+
+  font-family: Neucha, serif;
   color: #fff;
+  font-size: var(--h3);
+  font-style: normal;
+
   line-height: 120%;
 }
 
@@ -721,21 +729,22 @@ h1 {
 }
 
 #name {
-  padding: 0 0 0 15px;
-
   width: 400px;
   height: 50px;
+
+  padding: 0 0 0 15px;
 
   border-width: 0;
 }
 
 ::-webkit-input-placeholder {
-  font-family: "OpenSans", serif;
-
   font-weight: 400;
-  font-style: normal;
-  font-size: 13.1px;
+
+  font-family: OpenSans, serif;
   color: #757575;
+  font-size: 13.1px;
+  font-style: normal;
+
   line-height: 160%;
 
   opacity: 0.2;
@@ -743,12 +752,13 @@ h1 {
 
 .agreement {
   margin-top: 0;
-
-  font-family: "OpenSans", serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 12px;
+
+  font-family: OpenSans, serif;
   color: #fff;
+  font-size: 12px;
+  font-style: normal;
+
   line-height: 160%;
 }
 
@@ -758,7 +768,8 @@ h1 {
 
 .send {
   position: relative;
-
+  width: 70px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -766,8 +777,6 @@ h1 {
   padding: 0;
 
   cursor: pointer;
-  width: 70px;
-  height: 50px;
 
   border: none;
 
@@ -784,12 +793,13 @@ h1 {
 
 .contacts {
   margin-top: 16px;
-
-  font-family: "OpenSans", serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 14px;
+
+  font-family: OpenSans, serif;
   color: #000;
+  font-size: 14px;
+  font-style: normal;
+
   line-height: 160%;
   text-align: center;
 }
