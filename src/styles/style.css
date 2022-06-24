@@ -33,10 +33,12 @@ body {
 }
 
 h2 {
+  margin: 0;
   color: var(--main);
   font-size: var(--h2);
+
   font-family: Neucha, serif;
-  margin: 0;
+
   line-height: var(--lineheight-headline);
 }
 
@@ -66,14 +68,14 @@ p {
 
 .header-section::before {
   position: absolute;
-
-  background-image: url("../images/background.png");
-  background-color: var(--brown);
-  background-repeat: no-repeat;
-  background-size: cover;
-
   width: 100%;
   height: 100%;
+  background-color: var(--brown);
+
+  background-image: url("../images/background.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
 
   opacity: 0.1;
 
@@ -88,6 +90,7 @@ p {
 
 h1 {
   margin: 0;
+
   color: var(--dark);
   font-weight: 400;
   font-size: var(--h1);
@@ -140,7 +143,7 @@ h1 {
   font-size: var(--font-size);
   color: var(--white);
 
-  font-family: "OpenSans", sans-serif;
+  font-family: OpenSans, serif;
   line-height: var(--line-height);
   text-transform: uppercase;
   text-decoration: none;
@@ -159,9 +162,10 @@ h1 {
 }
 
 .p-text {
-  font-weight: 400;
-  font-family: OpenSans, serif;
   color: var(--text-color);
+  font-weight: 400;
+
+  font-family: OpenSans, serif;
   font-size: var(--font-size);
   line-height: 26px;
 }
@@ -187,13 +191,15 @@ h1 {
 .text-video-headline {
   margin-top: 100px;
   margin-bottom: 30px;
-  font-family: Neucha, serif;
   font-weight: 400;
+
+  font-family: Neucha, serif;
+
   font-size: 60px;
   font-style: normal;
-  text-align: center;
 
   line-height: 72px;
+  text-align: center;
 }
 
 .black {
@@ -207,8 +213,10 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+
   margin-top: 0;
   margin-bottom: 30px;
+
   line-height: 160%;
 }
 
@@ -243,34 +251,38 @@ h1 {
 }
 
 .numbers {
-  margin-bottom: 40px;
   margin-top: 0;
-
-  font-family: "Neucha", serif;
+  margin-bottom: 40px;
   font-weight: 400;
-  font-style: normal;
-  font-size: 64px;
+
+  font-family: Neucha, serif;
   color: var(--dark);
+  font-size: 64px;
+  font-style: normal;
+
   line-height: 1;
 }
 
 .card-headlines {
   margin: 0;
-
-  font-family: "Neucha", serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 34px;
+
+  font-family: Neucha, serif;
   color: var(--main);
+  font-size: 34px;
+  font-style: normal;
+
   line-height: 120%;
 }
 
 .card-text {
-  font-family: "OpenSans", serif;
-  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+
+  font-family: OpenSans, serif;
   color: var(--text-color);
+  font-size: 16px;
+  font-style: normal;
+
   line-height: 26px;
 }
 
@@ -282,10 +294,12 @@ h1 {
 
 .introduction {
   margin: 0;
-  font-family: "Neucha", serif;
   font-weight: 400;
-  font-style: normal;
+
+  font-family: Neucha, serif;
   font-size: 52px;
+  font-style: normal;
+
   line-height: 120%;
 }
 
@@ -417,14 +431,15 @@ h1 {
 
   width: 100%;
   height: 100%;
+  background-color: var(--brown);
 
   background-image: url("../images/background.png");
-  background-color: var(--brown);
+
   background-repeat: no-repeat;
   background-size: cover;
 
-  content: "";
   opacity: 0.1;
+  content: "";
 }
 
 .section-headline {
@@ -444,11 +459,11 @@ h1 {
 
 .topic-b {
   margin: 0;
+  color: var(--translucent-dark);
+
   font-weight: 400;
 
   font-family: Neucha, serif;
-  color: var(--translucent-dark);
-
   font-size: 24px;
   font-style: normal;
   line-height: 29px;
@@ -456,11 +471,11 @@ h1 {
 
 .section-1-3-5-explanation {
   margin-top: 30px;
+  color: var(--dark);
+
   font-weight: 400;
 
   font-family: Neucha, serif;
-
-  color: var(--dark);
   font-size: 34px;
   font-style: normal;
   line-height: 41px;
@@ -476,13 +491,14 @@ h1 {
 .how-it-works-text {
   margin: 0;
   padding: 5px 0 5px 10px;
-  font-weight: 700;
 
+  font-weight: 700;
+  color: var(--white);
   font-family: OpenSans, serif;
 
-  color: var(--white);
   font-size: 14px;
   font-style: normal;
+
   line-height: 17px;
   text-transform: uppercase;
 
@@ -526,6 +542,7 @@ h1 {
 
 #premature-optimization::before {
   position: absolute;
+
   width: 100%;
   height: 100%;
 
@@ -533,17 +550,19 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 
-  content: "";
-
   opacity: 0.1;
+
+  content: "";
 }
 
 .topic-w {
   margin: 0;
+
   font-weight: 400;
+  color: var(--translucent-white);
 
   font-family: Neucha, serif;
-  color: var(--translucent-white);
+
   font-size: 24px;
   font-style: normal;
 
@@ -552,20 +571,23 @@ h1 {
 
 .h-white {
   margin: 0;
+
   font-weight: 400;
+  color: var(--white);
 
   font-family: Neucha, serif;
-  color: var(--white);
+
   font-size: var(--h1);
   line-height: var(--lineheight-headline);
 }
 
 .section-2-4-explanation {
   margin-top: 30px;
+
   font-weight: 400;
+  color: var(--white);
 
   font-family: Neucha, serif;
-  color: var(--white);
   font-size: 34px;
   font-style: normal;
 
@@ -575,13 +597,14 @@ h1 {
 .how-it-works-text-w {
   margin: 0;
   padding: 5px 0 5px 10px;
+
   font-weight: 700;
+  color: var(--brown);
 
   font-family: OpenSans, serif;
-  color: var(--brown);
+
   font-size: 14px;
   font-style: normal;
-
   line-height: 17px;
   text-transform: uppercase;
 
@@ -590,10 +613,11 @@ h1 {
 
 .text-columns-2-w {
   margin-top: 0;
+
   font-weight: 400;
+  color: var(--white);
 
   font-family: OpenSans, serif;
-  color: var(--white);
   font-size: 16px;
   font-style: normal;
 
@@ -610,17 +634,19 @@ h1 {
 
 #distortion-of-novelty::before {
   position: absolute;
+
   width: 100%;
   height: 100%;
 
-  background-image: url("../images/background.png");
   background-color: var(--brown);
+
+  background-image: url("../images/background.png");
 
   background-repeat: no-repeat;
   background-size: cover;
-  content: "";
-
   opacity: 0.1;
+
+  content: "";
 }
 
 /** СЕКЦИЯ-7 **/
@@ -635,6 +661,7 @@ h1 {
 
 #hyperbolic-depreciation::before {
   position: absolute;
+
   width: 100%;
   height: 100%;
 
@@ -642,10 +669,9 @@ h1 {
 
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.1;
 
   content: "";
-
-  opacity: 0.1;
 }
 
 /** CЕКЦИЯ-8 **/
@@ -658,18 +684,18 @@ h1 {
 
 #errors-in-planning::before {
   position: absolute;
+
   width: 100%;
   height: 100%;
 
   background-image: url("../images/background.png");
 
   background-repeat: no-repeat;
-  background-size: cover;
   background-color: var(--brown);
+  background-size: cover;
+  opacity: 0.1;
 
   content: "";
-
-  opacity: 0.1;
 }
 
 /** СЕКЦИЯ-9 **/
@@ -696,10 +722,11 @@ h1 {
 .more {
   margin: 0;
   padding: 55px;
+
   font-weight: 400;
+  color: #fff;
 
   font-family: Neucha, serif;
-  color: #fff;
   font-size: var(--h3);
   font-style: normal;
 
@@ -710,11 +737,14 @@ h1 {
   margin-top: 38px;
   margin-bottom: 9px;
 
-  font-family: "OpenSans", serif;
   font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
+
   color: #fff;
+
+  font-family: OpenSans, serif;
+  font-size: 18px;
+  font-style: normal;
+
   line-height: 160%;
 }
 
@@ -740,8 +770,9 @@ h1 {
 ::-webkit-input-placeholder {
   font-weight: 400;
 
-  font-family: OpenSans, serif;
   color: #757575;
+
+  font-family: OpenSans, serif;
   font-size: 13.1px;
   font-style: normal;
 
@@ -768,19 +799,21 @@ h1 {
 
 .send {
   position: relative;
-  width: 70px;
-  height: 50px;
+
   display: flex;
   align-items: center;
   justify-content: center;
 
+  width: 70px;
+  height: 50px;
+
   padding: 0;
 
-  cursor: pointer;
+  background-color: var(--main);
 
   border: none;
 
-  background-color: var(--main);
+  cursor: pointer;
 }
 
 .send::before {
@@ -793,6 +826,7 @@ h1 {
 
 .contacts {
   margin-top: 16px;
+
   font-weight: 400;
 
   font-family: OpenSans, serif;
