@@ -141,9 +141,10 @@ h1 {
   width: max-content;
   margin-top: 40px;
   padding: 12px 24px;
+  color: var(--white);
 
   font-weight: 700;
-  color: var(--white);
+
   font-size: var(--font-size);
 
   font-family: OpenSans, serif;
@@ -198,9 +199,9 @@ h1 {
 
   font-weight: 400;
   font-size: 60px;
-  font-style: normal;
 
   font-family: Neucha, serif;
+  font-style: normal;
 
   line-height: 72px;
   text-align: center;
@@ -217,17 +218,17 @@ h1 {
   color: var(--dark);
 
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
 
   font-family: OpenSans, serif;
+  font-style: normal;
 
   line-height: 160%;
 }
 
 .video {
-  filter: drop-shadow(0 16px 32px);
   color: rgba(0, 0, 0, 15%);
+  filter: drop-shadow(0 16px 32px);
 }
 
 /** СЕКЦИЯ-3 **/
@@ -263,9 +264,9 @@ h1 {
 
   font-weight: 400;
   font-size: 64px;
-  font-style: normal;
 
   font-family: Neucha, serif;
+  font-style: normal;
 
   line-height: 1;
 }
@@ -277,9 +278,9 @@ h1 {
 
   font-weight: 400;
   font-size: 34px;
-  font-style: normal;
 
   font-family: Neucha, serif;
+  font-style: normal;
 
   line-height: 120%;
 }
@@ -289,9 +290,9 @@ h1 {
 
   font-weight: 400;
   font-size: 16px;
-  font-style: normal;
 
   font-family: OpenSans, serif;
+  font-style: normal;
 
   line-height: 26px;
 }
@@ -307,9 +308,9 @@ h1 {
 
   font-weight: 400;
   font-size: 52px;
-  font-style: normal;
 
   font-family: Neucha, serif;
+  font-style: normal;
 
   line-height: 120%;
 }
@@ -467,19 +468,22 @@ h1 {
   vertical-align: middle;
 
   background-color: var(--white);
-  filter: drop-shadow(0px 16px 32px);
   color: rgba(0, 0, 0, 15%);
+
+  filter: drop-shadow(0px 16px 32px);
 }
 
 .topic-b {
   margin: 0;
+
   color: var(--translucent-dark);
 
   font-weight: 400;
+  font-size: 24px;
 
   font-family: Neucha, serif;
-  font-size: 24px;
   font-style: normal;
+
   line-height: 29px;
 }
 
@@ -488,10 +492,11 @@ h1 {
   color: var(--dark);
 
   font-weight: 400;
+  font-size: 34px;
 
   font-family: Neucha, serif;
-  font-size: 34px;
   font-style: normal;
+
   line-height: 41px;
 }
 
@@ -506,11 +511,12 @@ h1 {
   margin: 0;
   padding: 5px 0 5px 10px;
 
-  font-weight: 700;
   color: var(--white);
-  font-family: OpenSans, serif;
 
+  font-weight: 700;
   font-size: 14px;
+
+  font-family: OpenSans, serif;
   font-style: normal;
 
   line-height: 17px;
@@ -534,11 +540,13 @@ h1 {
 
 .text-columns-2 {
   margin-top: 0;
+
+  color: var(--dark);
+
   font-weight: 400;
+  font-size: 16px;
 
   font-family: OpenSans, serif;
-  color: var(--dark);
-  font-size: 16px;
   font-style: normal;
 
   line-height: 26px;
@@ -572,12 +580,12 @@ h1 {
 .topic-w {
   margin: 0;
 
-  font-weight: 400;
   color: var(--translucent-white);
 
-  font-family: Neucha, serif;
-
+  font-weight: 400;
   font-size: 24px;
+
+  font-family: Neucha, serif;
   font-style: normal;
 
   line-height: 29px;
@@ -586,23 +594,25 @@ h1 {
 .h-white {
   margin: 0;
 
-  font-weight: 400;
   color: var(--white);
+
+  font-weight: 400;
+  font-size: var(--h1);
 
   font-family: Neucha, serif;
 
-  font-size: var(--h1);
   line-height: var(--lineheight-headline);
 }
 
 .section-2-4-explanation {
   margin-top: 30px;
 
-  font-weight: 400;
   color: var(--white);
 
-  font-family: Neucha, serif;
+  font-weight: 400;
   font-size: 34px;
+
+  font-family: Neucha, serif;
   font-style: normal;
 
   line-height: 41px;
@@ -612,13 +622,14 @@ h1 {
   margin: 0;
   padding: 5px 0 5px 10px;
 
-  font-weight: 700;
   color: var(--brown);
 
-  font-family: OpenSans, serif;
-
+  font-weight: 700;
   font-size: 14px;
+
+  font-family: OpenSans, serif;
   font-style: normal;
+
   line-height: 17px;
   text-transform: uppercase;
 
@@ -628,11 +639,12 @@ h1 {
 .text-columns-2-w {
   margin-top: 0;
 
-  font-weight: 400;
   color: var(--white);
 
-  font-family: OpenSans, serif;
+  font-weight: 400;
   font-size: 16px;
+
+  font-family: OpenSans, serif;
   font-style: normal;
 
   line-height: 26px;
@@ -704,8 +716,8 @@ h1 {
 
   background-image: url("../images/background.png");
 
-  background-repeat: no-repeat;
   background-color: var(--brown);
+  background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
 
@@ -737,11 +749,12 @@ h1 {
   margin: 0;
   padding: 55px;
 
-  font-weight: 400;
   color: #fff;
 
-  font-family: Neucha, serif;
+  font-weight: 400;
   font-size: var(--h3);
+
+  font-family: Neucha, serif;
   font-style: normal;
 
   line-height: 120%;
@@ -751,12 +764,12 @@ h1 {
   margin-top: 38px;
   margin-bottom: 9px;
 
-  font-weight: 400;
-
   color: #fff;
 
-  font-family: OpenSans, serif;
+  font-weight: 400;
   font-size: 18px;
+
+  font-family: OpenSans, serif;
   font-style: normal;
 
   line-height: 160%;
@@ -782,12 +795,12 @@ h1 {
 }
 
 ::-webkit-input-placeholder {
-  font-weight: 400;
-
   color: #757575;
 
-  font-family: OpenSans, serif;
+  font-weight: 400;
   font-size: 13.1px;
+
+  font-family: OpenSans, serif;
   font-style: normal;
 
   line-height: 160%;
@@ -797,11 +810,13 @@ h1 {
 
 .agreement {
   margin-top: 0;
+
+  color: #fff;
+
   font-weight: 400;
+  font-size: 12px;
 
   font-family: OpenSans, serif;
-  color: #fff;
-  font-size: 12px;
   font-style: normal;
 
   line-height: 160%;
@@ -841,11 +856,12 @@ h1 {
 .contacts {
   margin-top: 16px;
 
+  color: #000;
+
   font-weight: 400;
+  font-size: 14px;
 
   font-family: OpenSans, serif;
-  color: #000;
-  font-size: 14px;
   font-style: normal;
 
   line-height: 160%;
