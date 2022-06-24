@@ -800,7 +800,7 @@ h1 {
   border-width: 0;
 }
 
-::-webkit-input-placeholder {
+input::-webkit-input-placeholder {
   color: #757575;
 
   font-weight: 400;
@@ -828,7 +828,7 @@ h1 {
   line-height: 160%;
 }
 
-.agreement > a:-webkit-any-link {
+.agreement > a {
   color: var(--white);
 }
 
@@ -879,6 +879,6 @@ h1 {
   padding-bottom: 111px;
 }
 
-.contacts > a:-webkit-any-link {
+.contacts > a {
   color: var(--blue);
 }
